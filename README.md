@@ -1,10 +1,4 @@
-# YO! Welcome to the "Steam" developer portfolio template
-
-Steam is a starter template designed to help you land more interviews. Below we'll walk through exactly how you can customize this template to make it your own.
-
-Before we go too far, note that I've provided a video walkthrough of the entire project [HERE](https://youtu.be/hu-XLI3bFX8).
-
-You can also find a live version of this project deployed at [https://steam-portfolio-demo.vercel.app/](https://steam-portfolio-demo.vercel.app/).
+# Hey! Welcome to my portfolio template
 
 ## Let's get things running
 
@@ -55,34 +49,3 @@ To add MORE routes to your project, see [this doc](https://nextjs.org/docs/basic
 Inside of the `styles/` directly you'll find find a global CSS file. This just includes a basic reset, as well as a couple of classes we use throughout the project.
 
 Inside of the `components/` directory you'll find all of the good stuff. The `components/home/` directory houses the majority of what you'll like want to edit
-
-## Styling
-
-Global styling (colors mainly) are defined using CSS variables in the `styles/globals.css` file.
-
-```
-  --background: rgb(17, 17, 17);
-  --bg-opaque: rgb(17, 17, 17, 0.25);
-  --background-light: rgb(35, 35, 35);
-  --background-dark: rgb(8, 8, 8);
-
-  --text: rgb(235, 236, 243);
-  --brand: rgb(10, 255, 157);
-
-  --text-xs: 1.6rem;
-  --text-sm: 1.8rem;
-  --text-md: 2.2rem;
-  --text-lg: 3.6rem;
-  --text-xl: 5.6rem;
-  --text-2xl: 9.6rem;
-```
-
-The first six variables are the colors for the app. The last six are font sizes. Play around with these a bit to start making it your own.
-
-## More info
-
-That's the basics! If you're comfortable digging in yourself, then you should be set.
-
-Want a deeper walkthrough??
-
-[WATCH THE TUTORIAL VIDEO](https://youtu.be/hu-XLI3bFX8)
