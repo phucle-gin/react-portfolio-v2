@@ -59,7 +59,7 @@ export const ProjectModal = ({
                 <Link target="_blank" rel="nofollow" href={code}>
                   <AiFillGithub /> source code
                 </Link>
-               )}
+              )}
               <Link target="_blank" rel="nofollow" href={projectLink}>
                 <AiOutlineExport /> live project
               </Link>

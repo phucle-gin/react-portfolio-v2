@@ -14,9 +14,32 @@ export const Experience = () => {
 
 const experience = [
   {
+    title: "Brightgreen",
+    position: "Full Stack Developer",
+    time: "2025 - Present",
+    location: "Melbourne, Vic",
+    description:
+      "Build and maintain in-house web applications at Brightgreen, leveraging React.js, TypeScript, MySQL and Laravel. Implemented robust testing frameworks with Jest, Cypress, and Karma to ensure high-quality code. Collaborated with cross-functional teams to deliver scalable solutions, enhancing user experience and operational efficiency.",
+    tech: [
+      "PHP",
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "MySQL",
+      "Laravel",
+      "Jest",
+      "Cypress",
+      "PHPUnit",
+      "Karma",
+      "Git",
+      "AWS",
+      "Monday",
+    ],
+  },
+  {
     title: "Arcadian Digital",
     position: "Full Stack Developer",
-    time: "2024 - Present",
+    time: "2024 - 2025",
     location: "Melbourne, Vic",
     description:
       "Revamped web applications at Arcadian Digital, leveraging React.js, WordPress, and the LAMP stack. Led the development of custom Gutenberg blocks, streamlined AWS deployments, and delivered responsive, high-performance websites for notable clients such as Luna Park, Smile Solutions, Brunetti, and Bupa Wellness.",
@@ -69,29 +92,17 @@ const experience = [
     location: "Melbourne, Vic",
     description:
       "Led the redevelopment of a WordPress site for a life coach with other student designers and marketing experts, significantly enhancing responsivity and engagement. Boosted SEO and streamlined client relations through Mailchimp and PayPal integrations, thus enhancing overall site efficiency and user experience. It was truely an amazing experience",
-    tech: ["PHP", "JavaScript", "JQuery", "MySQL", "HTML", "CSS/SCSS","XML","SEO","APIs","Cloudflare"],
-  },
-  {
-    title: "ATM Online VN",
-    position: "Software Developer",
-    time: "2022 - 2022",
-    location: "Ho Chi Minh, Vietnam",
-    description:
-      "I improved the performance of in-house websites by 20% using React and Typescript. Secured user data using JWT authentication, optimized API for efficiency and reliability by enhancing its speed and ensured their robust functionality with thorough testing using Jest.",
     tech: [
-      "React",
-      "React Native",
-      "Styled Component",
-      "PostgreSQL",
-      "TypeScript",
-      "Express",
-      "Expo",
-      "Docker",
-      "Jest",
-      "Node.js",
-      "Redux",
-      "Git",
-      "Jira"
+      "PHP",
+      "JavaScript",
+      "JQuery",
+      "MySQL",
+      "HTML",
+      "CSS/SCSS",
+      "XML",
+      "SEO",
+      "APIs",
+      "Cloudflare",
     ],
   },
 ];
