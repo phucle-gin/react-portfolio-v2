@@ -5,7 +5,7 @@ import styles from "./projects.module.scss";
 export const Projects = () => {
   return (
     <section className="section-wrapper" id="projects">
-      <SectionHeader title="Projects" dir="r" />
+      <SectionHeader title="Past Projects" dir="r" />
 
       <div className={styles.projects}>
         {projects.map((project) => {
@@ -40,7 +40,7 @@ const projects = [
     projectLink: "https://www.middys.com.au/",
     tech: ["React", "TypeScript", ".NET", "Kentico", "AWS", "MySQL"],
     description:
-      "At Newpath, I helped Middy’s eCommerce platform by integrating React with Kentico’s .NET7 back-end. Custom solutions enhanced eCommerce, content management, and marketing automation, resulting in a more dynamic, responsive user experience.",
+      "Led the front-end revamp of Middy’s eCommerce platform, integrating React into their existing Kentico .NET7 system. Built custom functionality to extend the CMS, improve the shopping experience, and give the marketing team control over content and campaigns.",
     modalContent: (
       <>
         <p>
@@ -80,7 +80,7 @@ const projects = [
     projectLink: "https://wrestpoint.com.au/",
     tech: ["React", "Gutenburg Block", "PHP","WordPress","AWS CodePipeline", "AWS S3", "MySQL", "Docker", "Kinsta"],
     description:
-      "Redesigned Wrest Point’s website using a custom Gutenberg plugin powered by React.js, enhancing content management and design flexibility. Similar to Brunetti, but with a more complex, visually rich design.",
+      "Redesigned Wrest Point’s website with a custom Gutenberg plugin built in React.js. The visually rich build required highly flexible block layouts and a content editing experience that kept pace with the brand’s complexity.",
     modalContent: (
       <>
       <p>The redesign of the Wrest Point website followed a similar approach to Brunetti, but with a more complex design tailored to their unique brand. </p>

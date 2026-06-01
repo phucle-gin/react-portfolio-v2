@@ -2,7 +2,6 @@ import { StandardButton } from "@/components/buttons/StandardButton";
 import { Reveal } from "@/components/utils/Reveal";
 import { DotGrid } from "./DotGrid";
 import styles from "./hero.module.scss";
-import Link from "next/link";
 export const Hero = () => {
   return (
     <section className={`section-wrapper ${styles.hero}`}>
@@ -19,11 +18,8 @@ export const Hero = () => {
         </Reveal>
         <Reveal>
           <div className={styles.aboutCopy}>
-            I&apos;ve spent the last 2 years building and scaling software for innovative startups and <Link href="https://www.newpathweb.com.au/" className={styles.aboutLinks} target="_blank" rel="nofollow">
-              a well-known digital agency
-            </Link> and <Link href="https://www.arcadiandigital.com.au/" className={styles.aboutLinks} target="_blank" rel="nofollow"> another leading marketing agency
-            </Link> in Melbourne. My focus is on creating pixel-perfect, engaging, and accessible digital experiences.  
-            Let&apos;s connect!
+            I enjoy the whole process: the backend, the UI, the tests, and
+            getting it shipped. Based in Melbourne. Let&apos;s connect!
           </div>
         </Reveal>
         <Reveal>

@@ -28,6 +28,14 @@
   color: var(--brand);
 }
 
+.link {
+  font-weight: 700;
+  transition: color 0.3s ease;
+  &:hover {
+    color: var(--brand);
+  }
+}
+
 .highlightFirstLetter:first-letter {
   background: var(--background-light);
   padding: 1rem;

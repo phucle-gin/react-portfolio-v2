@@ -4,6 +4,7 @@ import { SectionHeader } from "@/components/utils/SectionHeader";
 import styles from "./about.module.scss";
 import { Stats } from "./Stats";
 import { AiOutlineArrowRight } from "react-icons/ai";
+import Link from "next/link";
 
 export const About = () => {
   return (
@@ -13,33 +14,22 @@ export const About = () => {
         <div>
           <Reveal>
             <p className={`${styles.aboutText} ${styles.highlightFirstLetter}`}>
-              Hey! I&apos;m Henry, if you haven&apos;t already gathered that by
-              now. I&apos;m a Full Stack Developer from Melbourne, Australia. I
-              specialize in both frontend and backend, primarily LAMP (Linux,
-              Apache, MySql, PHP) stack alongside with Drupal and WordPress, but
-              love building with whatever tools are right for the job.
+              Hey! I&apos;m Henry, a Full Stack Developer based in Melbourne.
+              I work across Laravel, React, and TypeScript, with a focus on
+              clean architecture and code that holds up over time.
             </p>
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
-              I currently work at Brightgreen, where I contribute to an in-house
-              project to leverage their product design and aim to build robust,
-              flexible, scalable solutions.
+              I currently work at{" "}
+              <Link href="https://brightgreen.com.au/" target="_blank" rel="nofollow" className={styles.link}>Brightgreen</Link>
+              , where I build and maintain internal tools and applications for
+              lighting design.
             </p>
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
-              Outside of work, I love participating in outdoor activities,
-              especially soccer. Any given Sunday, you&apos;ll find me showing
-              off my footwork and having fun with my friends. ⚽️
-            </p>
-          </Reveal>
-          <Reveal>
-            <p className={styles.aboutText}>
-              I&apos;m passively looking for new positions where I can merge my
-              passion for building scalable websites. If you think you&apos;ve
-              got an opening that I might interest, I would love to discuss
-              about it. ✌🏻
+              Outside of work, you&apos;ll usually find me on a soccer pitch. ⚽️
             </p>
           </Reveal>
           <Reveal>

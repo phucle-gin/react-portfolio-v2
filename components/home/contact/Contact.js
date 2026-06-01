@@ -16,7 +16,7 @@ export const Contact = () => {
           <p className={styles.contactCopy}>
             Shoot me an email if you want to connect! You can also find me on{" "}
             <Link
-              href="https://www.linkedin.com"
+              href="https://linkedin.com/in/henrynhle"
               target="_blank"
               rel="nofollow"
             >

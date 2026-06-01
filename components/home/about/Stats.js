@@ -14,20 +14,21 @@ export const Stats = () => {
           <div className={styles.statGrid}>
             <span className="chip">JavaScript</span>
             <span className="chip">TypeScript</span>
-            <span className="chip">HTML</span>
-            <span className="chip">CSS/SCSS</span>
             <span className="chip">PHP</span>
-            <span className="chip">MySQL</span>
-            <span className="chip">NodeJS</span>
-            <span className="chip">WordPress</span>
-            <span className="chip">Drupal</span>
+            <span className="chip">Laravel</span>
             <span className="chip">React.js</span>
             <span className="chip">Redux</span>
-            <span className="chip">GitHub</span>
-            <span className="chip">Jira</span>
-            <span className="chip">Figma</span>
-            <span className="chip">Cloudflare</span>
+            <span className="chip">HTML5</span>
+            <span className="chip">CSS/SCSS</span>
+            <span className="chip">MySQL</span>
+            <span className="chip">WordPress</span>
             <span className="chip">AWS</span>
+            <span className="chip">Docker</span>
+            <span className="chip">CI/CD</span>
+            <span className="chip">Jest</span>
+            <span className="chip">Cypress</span>
+            <span className="chip">PHPUnit</span>
+            <span className="chip">Git</span>
             <span className="chip">Linux</span>
           </div>
         </div>
@@ -40,17 +41,15 @@ export const Stats = () => {
           </h4>
           <div className={styles.statGrid}>
             <span className="chip">Next.js</span>
-            <span className="chip">React.js</span>
+            <span className="chip">Node.js</span>
             <span className="chip">Express</span>
-            <span className="chip">MongoDB</span>
             <span className="chip">Tailwind</span>
-            <span className="chip">.NET</span>
-            <span className="chip">.NET core</span>
-            <span className="chip">SQL server</span>
+            <span className="chip">MongoDB</span>
             <span className="chip">GraphQL</span>
-            <span className="chip">MVC</span>
             <span className="chip">Python</span>
             <span className="chip">FastAPI</span>
+            <span className="chip">.NET</span>
+            <span className="chip">SQL Server</span>
           </div>
         </div>
       </Reveal>
